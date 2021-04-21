@@ -778,7 +778,8 @@ img {
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details {
   display: inline-block;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
