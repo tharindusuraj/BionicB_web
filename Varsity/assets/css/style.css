@@ -465,8 +465,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  border: 2px solid #0d2160;
-  border-radius: 8px;
+
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
   font-size: 40px;
@@ -2503,7 +2502,12 @@ img {
   }
 }
 
-.js .animate-box {
-  opacity: 0;
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
 }
-
