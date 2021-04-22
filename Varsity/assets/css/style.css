@@ -465,6 +465,8 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  border: 2px solid #0d2160;
+  border-radius: 8px;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
   font-size: 40px;
@@ -2452,6 +2454,8 @@ img {
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
+    border: 2px solid #0d2160;
+    border-radius: 4px;
   }
 
   #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
@@ -2498,3 +2502,8 @@ img {
     font-size: 100px;
   }
 }
+
+.js .animate-box {
+  opacity: 0;
+}
+
