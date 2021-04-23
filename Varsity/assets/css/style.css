@@ -884,7 +884,7 @@ img {
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content {
   display: inline;
   float: left;
-  width: 100%;
+  width: 130%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content h4 {
   margin-bottom: 0;
@@ -894,9 +894,10 @@ img {
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content span {
   color: #000;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
   margin-top: 5px;
+  
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content p {
   font-size: 15px;
@@ -1156,6 +1157,7 @@ img {
 #mu-course-content .mu-course-content-area .mu-course-container {
   display: inline;
   float: left;
+  margin:auto;
   width: 100%;
 }
 #mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single {
@@ -1185,12 +1187,7 @@ img {
   font-weight: normal;
   padding: 5px 0 5px 15px;
   position: relative;
-  text-transform: capitalize;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+
 }
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:hover, #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:focus {
   margin-left: 5px;
@@ -1216,11 +1213,7 @@ img {
   font-size: 16px;
 }
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .media-heading a {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+
 }
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .popular-course-price {
   font-size: 14px;
@@ -1244,11 +1237,6 @@ img {
   letter-spacing: 0.3px;
   margin: 0 5px 10px;
   padding: 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
 }
 #mu-course-content .mu-course-content-area .mu-course-details {
   background-color: #FFF;
@@ -1279,7 +1267,7 @@ img {
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li span:first-child {
   display: inline-block;
   min-width: 150px;
-  float: left;
+  float:left;
 }
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .table {
   margin-top: 10px;
@@ -2512,3 +2500,7 @@ ul {
   padding-left: 10px;
 }
 
+
+.teacher-description{
+  border: 2px solid #0d2160;
+}
